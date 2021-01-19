@@ -12,3 +12,4 @@ RUN mkdir -p /app
 WORKDIR /app
 COPY ./requirement.txt .
 RUN pip install -r requirement.txt
+# add this line to trigger tencent build
